@@ -1266,7 +1266,6 @@
 ◆ claw-switch : All-in-One Manager for OpenClaw.
 ◆ clawchat : A desktop client for openclaw.
 ◆ clawcontrol : A cross-platform desktop and mobile client for OpenClaw AI assistant. Built with Electron, React, and TypeScript.
-◆ clawcontroller : ClawController is a dedicated administration app designed to orchestrate your OpenClaw Gateway instances without having to dig through command lines.
 ◆ clawd-on-desk : A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.
 ◆ clawdcad : Claude code meet Openscad and have cute childrens.
 ◆ clawdmeter : Cross-platform dashboard for Claude Code usage: live session and weekly limits with reset countdowns, token counts, 16 themes and a tray mascot.
@@ -1693,7 +1692,6 @@
 ◆ dala : Persistent shells — every session lives in its own PTY holder daemon (dtach model, written in Rust). Restarting or upgrading dala leaves your shells running: tmux durability, browser UI.
 ◆ dana : A desktop client for the Dana learning box.
 ◆ danmu-desktop : Display bullet comments directly on the desktop.
-◆ dardcor-code : Desktop Code Editor Powered by Electron, Monaco Editor & Local AI Routing
 ◆ darkplaces : Unofficial. The DarkPlaces Quake engine, created by LadyHavoc.
 ◆ darkslide : Film negative converter app with pro-grade user interface, GPU acceleration and powerful Rust backend. Easily perform the inversion of RAW or TIFF files to color accurate positives. MacOS desktop app, exp. support for Windows and Linux.
 ◆ darktable : Photography workflow app and raw developer.
@@ -5732,7 +5730,6 @@
 ◆ pawstash : A cross-platform client, downloader, and stash manager for archivers, with server e2ee library sync and more.
 ◆ pawzy : Pawzy is an inescapable screen blocker that forces real breaks - works on every app, game, and browser. No new-tab bypass. No Alt+F4.
 ◆ pay-respects : Terminal command correction, alternative to thefuck written in Rust.
-◆ payloader : A self-hosted knowledge workbench designed for authorized security testing, offensive-defensive exercises, and security research.
 ◆ pb-for-desktop : Pushbullet Desktop app.
 ◆ pboy : A small .pdf management tool with a command-line UI.
 ◆ pc-recap : A visual time capsule for your computer life. Turn real app usage into daily, weekly, monthly, and yearly recaps on Windows, macOS, and Linux.
@@ -5843,7 +5840,6 @@
 ◆ photoqt : View and manage images.
 ◆ photoquick : Light-weight image viewer, resize, collage, filters....
 ◆ photos-backup-desktop : PhotosBackup desktop app.
-◆ photosuite : A desktop image editor faithfully replicating classic Adobe Photoshop with 1:1 native PSD/PSB compatibility. : picture,photo,png,paint,pixel,wallpaper.
 ◆ photovault : Smriti — offline-first photo library for your drives. No server, no cloud. On-device face recognition, Google Photos Takeout import. Windows/macOS/Linux.
 ◆ php-gtk3 : GTK3  extension for PHP.
 ◆ phreshplayer : Electron based media player app.
@@ -6019,7 +6015,6 @@
 ◆ pokerpulsepro-tauri : Open Source Poker - Home Tournament Manager & Timer.
 ◆ pokete : A terminal based Pokemon like game.
 ◆ polar : One-click Bitcoin Lightning networks for local app development.
-◆ polaris : A modern network proxy tool built on the sing-box core and the Tauri framework, focused on simplifying proxy control and connection management.
 ◆ polire : Open-source desktop writing assistant for clearer writing, translation, and quick notes.
 ◆ polkakey : A secure way to generate Polkadot/Kusama/Edgeware address.
 ◆ pollinations-ai-studio : Desktop AI Studio for Pollinations.ai - Chat + Image/Video Generation.
@@ -6688,7 +6683,6 @@
 ◆ rsql : A Tauri application for efficient and secure database management.
 ◆ rssguard : Feed reader which supports RSS/ATOM/JSON, no-webengine version.
 ◆ rssh : An SSH tool dedicated to addressing all pain points.
-◆ rstudio : RStudio is an integrated development environment, IDE for R.
 ◆ rthextion : An advanced multi-platform hex-editor for ROMHacking with tables, scripts and pointers support; a tribute to 00's Translhextion by Brian 'Januschan' / 'JanusMael' Bennewitz.
 ◆ rtneuron : Framework for geometrically detailed neuron simulations.
 ◆ rtsp-inspector : Free Community Edition RTSP stream tester and diagnostic tool for RTSP/RTP/RTCP/H.264 evidence, IP-camera troubleshooting, and JSON preview.
@@ -6768,7 +6762,6 @@
 ◆ sano-sach-noi : Sano – Create AI audiobooks from Word files. Runs locally on your machine; free and open-source.
 ◆ sanptranslate : A cross-platform desktop screenshot translation tool built with OCR and AI-powered translation in one click.And built-in quick text fill feature.
 ◆ saphyr : A C++ like compiler.
-◆ sapphire : She's the AI agent you come home to.
 ◆ sarala : A minimal writing app that renders Markdown the moment you type it — no split panes, no preview window, no friction. Free forever, open source, and yours to hack on.
 ◆ sarasara : SaraSara is a minimalist, distraction-free Markdown editor designed in the style of Apple Pages.
 ◆ sas : Tool to sandbox AppImages with bubblewrap easily.
@@ -7130,7 +7123,6 @@
 ◆ snag : Paste a link, get the file. A tiny, open source yt-dlp downloader.
 ◆ snake-js : Canvas/JavaScript based Snake Game with support for controllers.
 ◆ snakie : Snakie is a robotics first MicroPython IDE.
-◆ snap-note : A modern desktop note-taking app with clipboard capture, OCR, and dark mode.
 ◆ snap-prompt : Snap Prompts is a modern desktop application designed for AI artists and Stable Diffusion users. It solves the problem of scattered prompt libraries by providing a centralized, secure way to store, edit, and visualize your prompts.
 ◆ snap-tray : SnapTray is a tray-native screenshot and recording tool for macOS and Windows. It is built for fast capture.
 ◆ snap2link : Paste screenshots into Claude Code, Cursor, or any terminal AI. Hotkey → region capture → public link in your clipboard. Cross-platform, open source.
@@ -7265,7 +7257,6 @@
 ◆ spotatui : A fast, standalone terminal music player in Rust: native Spotify streaming plus local, Subsonic, radio, Qobuz and Youtube sources.
 ◆ spotifast : Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.
 ◆ spotifetch : A simple and beautiful CLI fetch tool for spotify, now rusty.
-◆ spotiflac : Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music — no account required.
 ◆ spotify : Unofficial. A proprietary music streaming service.
 ◆ spotify-candidate : Unofficial. A proprietary music streaming service.
 ◆ spotify-dl : A command-line utility to download songs and playlists directly from Spotify's servers.
@@ -8364,7 +8355,6 @@
 ◆ vtx : High-performance molecular visualization software.
 ◆ vue-calc : A Simple VueJS's Calculator built with ElectronJS.
 ◆ vuerd : A desktop ERD app.
-◆ vulgr : Run Claude Code, Codex and AGY side by side, keep your sessions organized, and let agents check each other's work.
 ◆ vulide : Vulide is a IDE which you can Build, Write your Vulpin Program's easily. And Vulide give's you so much cool tools which you can enjoy with programming!.
 ◆ vup : Private and decentralized cloud storage.
 ◆ vyact : Vyact is an open-source, local-first personal AI workspace for llama.cpp, RAG, AI agents, document intelligence, and Google Workspace.

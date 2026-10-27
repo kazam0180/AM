@@ -1183,7 +1183,6 @@
 ◆ claw-switch : All-in-One Manager for OpenClaw. #itsdesktopapp
 ◆ clawchat : A desktop client for openclaw. #itsdesktopapp
 ◆ clawcontrol : A cross-platform desktop and mobile client for OpenClaw AI assistant. Built with Electron, React, and TypeScript. #itsdesktopapp
-◆ clawcontroller : ClawController is a dedicated administration app designed to orchestrate your OpenClaw Gateway instances without having to dig through command lines. #itsdesktopapp
 ◆ clawd-on-desk : A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to. #itsdesktopapp
 ◆ clawdcad : Claude code meet Openscad and have cute childrens. #itsdesktopapp
 ◆ clawdmeter : Cross-platform dashboard for Claude Code usage: live session and weekly limits with reset countdowns, token counts, 16 themes and a tray mascot. #itsdesktopapp
@@ -1584,7 +1583,6 @@
 ◆ dala : Persistent shells — every session lives in its own PTY holder daemon (dtach model, written in Rust). Restarting or upgrading dala leaves your shells running: tmux durability, browser UI. #itsdesktopapp
 ◆ dana : A desktop client for the Dana learning box. #itsdesktopapp
 ◆ danmu-desktop : Display bullet comments directly on the desktop. #itsdesktopapp
-◆ dardcor-code : Desktop Code Editor Powered by Electron, Monaco Editor & Local AI Routing #itsdesktopapp
 ◆ darkplaces : Unofficial. The DarkPlaces Quake engine, created by LadyHavoc. #itsdesktopapp
 ◆ darkslide : Film negative converter app with pro-grade user interface, GPU acceleration and powerful Rust backend. Easily perform the inversion of RAW or TIFF files to color accurate positives. MacOS desktop app, exp. support for Windows and Linux. #itsdesktopapp
 ◆ darktable : Photography workflow app and raw developer. #itsdesktopapp
@@ -5297,7 +5295,6 @@
 ◆ pawse : A fast, native music player for your local library, built in Rust and GPUI, with a buttery-smooth, customizable 120+ fps interface, exclusive (bit-perfect) output, and a rich feature set. #itsdesktopapp
 ◆ pawstash : A cross-platform client, downloader, and stash manager for archivers, with server e2ee library sync and more. #itsdesktopapp
 ◆ pawzy : Pawzy is an inescapable screen blocker that forces real breaks - works on every app, game, and browser. No new-tab bypass. No Alt+F4. #itsdesktopapp
-◆ payloader : A self-hosted knowledge workbench designed for authorized security testing, offensive-defensive exercises, and security research. #itsdesktopapp
 ◆ pb-for-desktop : Pushbullet Desktop app. #itsdesktopapp
 ◆ pc-recap : A visual time capsule for your computer life. Turn real app usage into daily, weekly, monthly, and yearly recaps on Windows, macOS, and Linux. #itsdesktopapp
 ◆ pc6001vx : Cross platform version of NEC PC-6001 emulator based on PC6001V. #itsdesktopapp
@@ -5399,7 +5396,6 @@
 ◆ photoqt : View and manage images. #itsdesktopapp
 ◆ photoquick : Light-weight image viewer, resize, collage, filters.... #itsdesktopapp
 ◆ photos-backup-desktop : PhotosBackup desktop app. #itsdesktopapp
-◆ photosuite : A desktop image editor faithfully replicating classic Adobe Photoshop with 1:1 native PSD/PSB compatibility. : picture,photo,png,paint,pixel,wallpaper. #itsdesktopapp
 ◆ photovault : Smriti — offline-first photo library for your drives. No server, no cloud. On-device face recognition, Google Photos Takeout import. Windows/macOS/Linux. #itsdesktopapp
 ◆ php-gtk3 : GTK3  extension for PHP. #itsdesktopapp
 ◆ phreshplayer : Electron based media player app. #itsdesktopapp
@@ -5557,7 +5553,6 @@
 ◆ pokerpulsepro-tauri : Open Source Poker - Home Tournament Manager & Timer. #itsdesktopapp
 ◆ pokete : A terminal based Pokemon like game. #itsdesktopapp
 ◆ polar : One-click Bitcoin Lightning networks for local app development. #itsdesktopapp
-◆ polaris : A modern network proxy tool built on the sing-box core and the Tauri framework, focused on simplifying proxy control and connection management. #itsdesktopapp
 ◆ polire : Open-source desktop writing assistant for clearer writing, translation, and quick notes. #itsdesktopapp
 ◆ polkakey : A secure way to generate Polkadot/Kusama/Edgeware address. #itsdesktopapp
 ◆ pollinations-ai-studio : Desktop AI Studio for Pollinations.ai - Chat + Image/Video Generation. #itsdesktopapp
@@ -6272,7 +6267,6 @@
 ◆ sano-sach-noi : Sano – Create AI audiobooks from Word files. Runs locally on your machine; free and open-source. #itsdesktopapp
 ◆ sanptranslate : A cross-platform desktop screenshot translation tool built with OCR and AI-powered translation in one click.And built-in quick text fill feature. #itsdesktopapp
 ◆ saphyr : A C++ like compiler. #itsdesktopapp
-◆ sapphire : She's the AI agent you come home to. #itsdesktopapp
 ◆ sarala : A minimal writing app that renders Markdown the moment you type it — no split panes, no preview window, no friction. Free forever, open source, and yours to hack on. #itsdesktopapp
 ◆ sarasara : SaraSara is a minimalist, distraction-free Markdown editor designed in the style of Apple Pages. #itsdesktopapp
 ◆ sas : Tool to sandbox AppImages with bubblewrap easily. #itscliapp
@@ -6612,7 +6606,6 @@
 ◆ snag : Paste a link, get the file. A tiny, open source yt-dlp downloader. #itsdesktopapp
 ◆ snake-js : Canvas/JavaScript based Snake Game with support for controllers. #itsdesktopapp
 ◆ snakie : Snakie is a robotics first MicroPython IDE. #itsdesktopapp
-◆ snap-note : A modern desktop note-taking app with clipboard capture, OCR, and dark mode. #itsdesktopapp
 ◆ snap-prompt : Snap Prompts is a modern desktop application designed for AI artists and Stable Diffusion users. It solves the problem of scattered prompt libraries by providing a centralized, secure way to store, edit, and visualize your prompts. #itsdesktopapp
 ◆ snap-tray : SnapTray is a tray-native screenshot and recording tool for macOS and Windows. It is built for fast capture. #itsdesktopapp
 ◆ snap2link : Paste screenshots into Claude Code, Cursor, or any terminal AI. Hotkey → region capture → public link in your clipboard. Cross-platform, open source. #itsdesktopapp
@@ -6740,7 +6733,6 @@
 ◆ spopi : SPOPI: A desktop GUI for the Pi coding agent. Editor, diff review, checkpoints and LSP around pi --mode rpc, with the session tree, live steering, context composition and local-model metrics Cursor hides. Hard fork of Picot (Tauri, vanilla JS, Rust). #itsdesktopapp
 ◆ spotatui : A fast, standalone terminal music player in Rust: native Spotify streaming plus local, Subsonic, radio, Qobuz and Youtube sources. #itsdesktopapp
 ◆ spotifast : Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows. #itsdesktopapp
-◆ spotiflac : Get Spotify tracks in true FLAC from Tidal, Qobuz & Amazon Music — no account required. #itsdesktopapp
 ◆ spotify : Unofficial. A proprietary music streaming service. #itsdesktopapp
 ◆ spotify-candidate : Unofficial. A proprietary music streaming service. #itsdesktopapp
 ◆ spotify-edge : Unofficial. A proprietary music streaming service. #itsdesktopapp
@@ -7743,7 +7735,6 @@
 ◆ vtx : High-performance molecular visualization software. #itsdesktopapp
 ◆ vue-calc : A Simple VueJS's Calculator built with ElectronJS. #itsdesktopapp
 ◆ vuerd : A desktop ERD app. #itsdesktopapp
-◆ vulgr : Run Claude Code, Codex and AGY side by side, keep your sessions organized, and let agents check each other's work. #itsdesktopapp
 ◆ vulide : Vulide is a IDE which you can Build, Write your Vulpin Program's easily. And Vulide give's you so much cool tools which you can enjoy with programming!. #itsdesktopapp
 ◆ vup : Private and decentralized cloud storage. #itsdesktopapp
 ◆ vyact : Vyact is an open-source, local-first personal AI workspace for llama.cpp, RAG, AI agents, document intelligence, and Google Workspace. #itsdesktopapp
