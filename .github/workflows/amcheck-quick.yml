@@ -25,15 +25,14 @@ jobs:
 
       - name: Check scripts
         run: |
-          cd programs || exit 1
+          #!/bin/sh
 
-           for f in x86_64/*; do
-            (if grep -q "^SITE=" "$f" && grep -q "version=.*api.github.com" "$f" && grep -q "wget \"\$version\"" "$f"; then
+          for f in programs/x86_64/*; do
+            if grep -q "^SITE=" "$f" && grep -q "version=.*api.github.com" "$f" && grep -q "wget \"\$version\"" "$f"; then
               if ! grep -q "^SITE2=" "$f"; then
-                if ! grep -q "version=.*api.github.com.*\$SITE" "$f"; then
+                SITE=$(grep "^SITE=" "$f" | head -1 | sed 's/"/\n/g' | sed "s/\'/\n/g" | grep . | tail -1)
+                if grep -q "version=.*api.github.com.*\$SITE" "$f"; then
                   SITE=$(grep "version=.*api.github.com" "$f" | grep -Eoi "repos/.*/releases" | head -1 | awk -F/ '{print $2 "/" $3}')
-                else
-                  SITE=$(grep "^SITE=" "$f" | head -1 | sed 's/"/\n/g' | sed "s/\'/\n/g" | grep . | tail -1)
                 fi
                 if command -v curl >/dev/null 2>&1; then
                   if ! curl --retry 10 --retry-all-errors --retry-delay 2 --connect-timeout 20 --max-time 60 --output /dev/null --silent --head --fail "https://github.com/$SITE" 2>/dev/null; then
@@ -45,23 +44,42 @@ jobs:
                   fi
                 fi
               fi
-            fi) &
+            fi
           done
-          wait
-
-          architectures=$(ls -d */ | tr '/' ' ' | xargs)
-          scripts="evalit"
-          for s in $scripts; do
-            for a in $architectures; do
-              [ -f "$a"/"$s" ] && rm -f "$a"/"$s" && echo "Removed $a/$s"
-            done
-          done
-          cd .. || exit 1
 
       - name: Commit and push testing
         run: |
           git config --global user.name "web-flow"
           git config --global user.email "noreply@github.com"
+          git checkout -b amcheck-quick
           git add programs
           git commit -m "Remove apps that did not pass the test" || echo "No changes to commit"
-          git push origin testing --force
+          base=$(git ls-remote --symref origin HEAD | awk 'NR==1 { sub(/^refs\/heads\//, "", $2); print $2 }')
+          # sync-with-AM commits apps/ every 30 minutes, so the branch is
+          # rebased onto the current default branch before pushing — that
+          # keeps the pull request showing only this run's app-file changes.
+          for attempt in 1 2 3; do
+            git fetch --force origin "$base"
+            if git rebase "origin/$base"; then
+              break
+            fi
+            git rebase --abort 2>/dev/null || true
+            [ "$attempt" = 3 ] && { echo "::error::Could not rebase the app files onto origin/$base"; exit 1; }
+            echo "Rebase failed, retrying with a fresh fetch (attempt $attempt of 3)"
+          done
+          git push --force origin convert-screenshots
+          printf '{"title":"Point screenshots at the pla-shots worker","head":"convert-screenshots","base":"%s","body":"Automated app-file update.\\n\\nMerge this **after** the linux-app-shots screenshots pull request has been merged, so the pla-shots worker serves every URL these app files reference."}' "$base" > /tmp/pull.json
+          code=$(curl -sS -o /tmp/pull-reply.json -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "$API_URL/pulls" \
+            --data-binary @/tmp/pull.json)
+          if [ "$code" = 201 ]; then
+            echo "Opened the site pull request"
+          elif [ "$code" = 422 ] && grep -q 'already exists' /tmp/pull-reply.json; then
+            echo "Pull request already open; pushed the new commit onto it"
+          else
+            echo "::error::Opening the site pull request failed (HTTP $code)"
+            cat /tmp/pull-reply.json
+            exit 1
+          fi
